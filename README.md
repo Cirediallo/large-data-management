@@ -28,10 +28,11 @@ Bucket creation:
         disk size: 500 GB
         image version: 2.0.47-debian10
         region: europe-west1
-        zone: europe-west1-c 
-    -   **Pig**
-    `2022-10-12 14:55:39,547 [main] INFO  org.apache.pig.Main - Pig script completed in 1 hour, 39 minutes, 40 seconds and 675 milliseconds (5980675 ms)
-    -   **PySpark** 
+        zone: europe-west1-c   
+          
+    -   **Pig**  
+    `2022-10-12 14:55:39,547 [main] INFO  org.apache.pig.Main - Pig script completed in 1 hour, 39 minutes, 40 seconds and 675 milliseconds (5980675 ms)  
+    -   **PySpark**   
 - ##### Cluster with 2 nodes 
 > Machines configurations (master and workers):
         type: *n1-standard-4*  
