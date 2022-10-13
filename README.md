@@ -12,14 +12,25 @@ Bucket creation:
 > Scripts used are ***dataproc2.py*** for **Pig** and ***pagerank-notype.py*** for **PySpark**  
 
 #### Performance
-- ##### Cluster with single node
+- ##### Cluster with single node  
+-   **Pig**
 > Machines configurations (master and workers):
         type: *n1-standard-4*  
-        disk size: 60 GB
+        disk size: 95 GB
+        image version: 2.0.47-debian10
+        region: europe-west1
+        zone: europe-west1-c 
+    
+    `Pig script completed in 3 hour, 10 minutes, 40 seconds and 50 milliseconds`  
+    
+> Machines configurations (master and workers):
+        type: *n1-standard-4*  
+        disk size: 500 GB
         image version: 2.0.47-debian10
         region: europe-west1
         zone: europe-west1-c 
     -   **Pig**
+    `2022-10-12 14:55:39,547 [main] INFO  org.apache.pig.Main - Pig script completed in 1 hour, 39 minutes, 40 seconds and 675 milliseconds (5980675 ms)
     -   **PySpark** 
 - ##### Cluster with 2 nodes 
 > Machines configurations (master and workers):
