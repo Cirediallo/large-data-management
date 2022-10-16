@@ -60,3 +60,19 @@ Bucket creation:
     -   **PySpark**   
     Execution completion of the script  
     `Script completed in 30 minutes 38 seconds`
+- ##### Cluster with 5 nodes 
+> Machines configurations (master and workers):
+        type: *n1-standard-4*  
+        disk size: 500 GB
+        image version: 2.0.47-debian10
+        region: europe-west1
+        zone: europe-west1-c 
+    -   **Pig**  
+    Execution completion of the script  
+    `Pig script completed in 29 minutes 10 seconds and 344 milliseconds (1750344 ms)`
+    -   **PySpark**   
+    Execution completion of the script  
+    `Script completed in 35 minutes 3 seconds`  
+    
+### Execution time plot
+![Execution time plot](./Figure_1.png "Execution time plot")
